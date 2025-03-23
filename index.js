@@ -1,8 +1,5 @@
-console.log("Helle Node JS")
+const {add,sub} = require("./math")
 
-const user = {
-    "name":"rutwik",
-    "designation":"SDE-1"
-}
+console.log("math add : " , add(3,2))
 
-console.log("user : {}", user.data)
+console.log("math sub  : " , sub(3,2))
